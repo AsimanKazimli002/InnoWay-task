@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+.navbar{
+    background-color: rgb(24,62,107);
+    display: flex;
+    justify-content:space-around;
+}
+.logo img{
+    background-repeat: no-repeat;
+    height: 60px;
+    
+}
+.list ul {
+    display: flex;
+    padding: 5px;
+}
+.list ul li{
+    list-style: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.appeal-btn{
+    height: 47px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(57,196,242);
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+.container{
+    margin: 0 auto;
+    width: 1400px;
+}
+.wrapper-text{
+    text-align: center;
+    margin: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h5{
+    color: rgb(24,62,107);
+    font-size: 24px;
+    margin: 15px;
+}
+p{
+    color: rgb(42,37,77);
+    font-size: 32px;
+}
+.lesson-card{
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    height: 200px;
+    border-radius: 60%;
+    
+}
+h3{
+    font-size: 20px;
+}
+.backend-card{
+    background-color: white;
+    width: 270px;
+    height: 320px;
+    border: 1px solid rgb(231,233,254);
+    text-align: center; 
+    box-shadow: 1px 1px rgb(231,233,254);
+    border-radius: 6px   
+}
+.engineering-card{
+    width: 270px;
+    height: 320px;
+    border: 1px solid rgb(231,233,254);
+    text-align: center;
+    box-shadow: 1px 1px rgb(231,233,254);
+    border-radius: 6px;
+}
+.stm32-card{
+    width: 270px;
+    height: 320px;
+    border: 1px solid rgb(231,233,254);
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 1px rgb(231,233,254);
+    border-radius: 6px
+}
+.frontend-card{
+    width: 270px;
+    height: 320px;
+    border: 1px solid rgb(231,233,254);
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 1px rgb(231,233,254);
+    border-radius: 6px
+}
